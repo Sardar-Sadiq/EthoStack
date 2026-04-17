@@ -1,6 +1,6 @@
 import { Badge, ButtonLink } from "../components/ui";
 import { motion } from "framer-motion";
-import { Rocket, ShieldCheck, Play, MoveRight } from "lucide-react";
+import { Rocket, ShieldCheck, Play, MoveRight, Diamond } from "lucide-react";
 
 export default function AboutUs() {
    return (
@@ -97,7 +97,7 @@ export default function AboutUs() {
                <div className="grid md:grid-cols-3 gap-8">
                   {/* Profile 1 */}
                   <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
-                     <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
+                     <div className="aspect-4/5 w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
                         <img src="/konda sir.png" alt="Julian Voss" className="absolute inset-0 w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
                      <div className="p-6 flex-1 flex flex-col">
@@ -115,7 +115,7 @@ export default function AboutUs() {
 
                   {/* Profile 2 */}
                   <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
-                     <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
+                     <div className="aspect-4/5 w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
                         <img src="/mam.png" alt="Elena Rossi" className="absolute inset-0 w-full h-full object-cover object-[center_top] filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
                      <div className="p-6 flex-1 flex flex-col">
@@ -133,7 +133,7 @@ export default function AboutUs() {
 
                   {/* Profile 3 */}
                   <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
-                     <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
+                     <div className="aspect-4/5 w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
                         <img src="/Vamsi sir.png" alt="Marcus Chen" className="absolute inset-0 w-full h-full object-cover object-center filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
                      <div className="p-6 flex-1 flex flex-col">
@@ -159,12 +159,7 @@ export default function AboutUs() {
 
                   {/* Pattern overlay */}
                   <div className="absolute right-0 top-0 bottom-0 opacity-10 pointer-events-none">
-                     <svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M200 0L400 200L200 400L0 200L200 0Z" stroke="white" strokeWidth="4" />
-                        <path d="M200 100L300 200L200 300L100 200L200 100Z" stroke="white" strokeWidth="4" />
-                        <path d="M200 200V0" stroke="white" strokeWidth="4" />
-                        <path d="M200 400V200" stroke="white" strokeWidth="4" />
-                     </svg>
+                     <Diamond className="w-[400px] h-[400px] text-white stroke-1" />
                   </div>
 
                   <div className="max-w-xl relative z-10">

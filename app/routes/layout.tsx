@@ -92,8 +92,8 @@ function Footer() {
     <footer className="footer bg-surface py-16 border-t border-surface-container-low mt-20">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
-          <Link gap-2 to="/" className="font-display font-bold text-xl tracking-tight text-primary mb-4 block">
-            EthoStack
+          <Link to="/" className="font-display font-semibold text-xl tracking-tight text-primary mb-4 block">
+            <span className="text-5xl text-blue-700 italianno">V</span> ision Training & Internship
           </Link>
           <p className="text-sm font-sans text-on-surface/70 leading-relaxed max-w-xs">
             A premium engineering studio dedicated to crafting world-class full-stack developers.
