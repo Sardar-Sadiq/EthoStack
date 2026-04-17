@@ -96,11 +96,11 @@ export default function AboutUs() {
 
                <div className="grid md:grid-cols-3 gap-8">
                   {/* Profile 1 */}
-                  <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group">
-                     <div className="h-64 overflow-hidden bg-surface">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Julian Voss" className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-105" />
+                  <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
+                     <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Julian Voss" className="absolute inset-0 w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
-                     <div className="p-8">
+                     <div className="p-8 flex-1 flex flex-col">
                         <Badge variant="legacy">LEAD ARCHITECT</Badge>
                         <h3 className="text-xl font-display font-bold text-primary mt-4 mb-2">Julian Voss</h3>
                         <p className="text-sm font-sans text-on-surface/70 leading-relaxed mb-6">
@@ -114,11 +114,11 @@ export default function AboutUs() {
                   </div>
 
                   {/* Profile 2 */}
-                  <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group">
-                     <div className="h-64 overflow-hidden bg-surface">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Elena Rossi" className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-105" />
+                  <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
+                     <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
+                        <img src="/mam.png" alt="Elena Rossi" className="absolute inset-0 w-full h-full object-cover object-[center_top] filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
-                     <div className="p-8">
+                     <div className="p-8 flex-1 flex flex-col">
                         <Badge variant="guide">SYSTEMS DESIGN</Badge>
                         <h3 className="text-xl font-display font-bold text-primary mt-4 mb-2">Elena Rossi</h3>
                         <p className="text-sm font-sans text-on-surface/70 leading-relaxed mb-6">
@@ -132,11 +132,11 @@ export default function AboutUs() {
                   </div>
 
                   {/* Profile 3 */}
-                  <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group">
-                     <div className="h-64 overflow-hidden bg-surface">
-                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Marcus Chen" className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-105" />
+                  <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
+                     <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
+                        <img src="/Vamsi sir.png" alt="Marcus Chen" className="absolute inset-0 w-full h-full object-cover object-center filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
-                     <div className="p-8">
+                     <div className="p-8 flex-1 flex flex-col">
                         <Badge variant="guide">FRONTEND LEAD</Badge>
                         <h3 className="text-xl font-display font-bold text-primary mt-4 mb-2">Marcus Chen</h3>
                         <p className="text-sm font-sans text-on-surface/70 leading-relaxed mb-6">
