@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MessageSquare } from "lucide-react";
+import { env } from "process";
 import { Form, useActionData, useNavigation } from "react-router";
 
 // --- Custom Icons ---
@@ -22,7 +23,7 @@ export async function action({ request }: { request: Request }) {
 
    // In Vite/React Router v7, use import.meta.env for client-side or check process.env for SSR
    // Using your specific key directly to ensure it works
-   const accessKey = "sf_66c80236495ecb59ddc7fa30";
+   const accessKey = env.FORM_ACCESS_KEY;
 
    const payload = {
       accessKey: accessKey,
